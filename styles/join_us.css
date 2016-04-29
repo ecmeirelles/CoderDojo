@@ -1,0 +1,172 @@
+input {
+	font-family: 'Bree Serif', serif;
+	font-size: 1.2em;
+	color: #909090;
+}
+
+fieldset { 
+	width: 80%;
+	margin: 2% 10% 2% 10%;
+	border:1px solid #ECEBDF; 
+	background: #F8F8F8;
+}
+
+legend {
+	padding: 0.5em;
+	border: 1px solid #ECEBDF;
+	border-radius: 1em;
+	color: #606060;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: 'Coming Soon', serif;
+	background: #FFFFFF;
+}
+
+.parents legend:before {
+	content: url('../images/one_icon.png');
+	padding-right: 0.5em;
+	vertical-align: -50%;
+}
+
+.personal legend:before {
+	content: url('../images/two_icon.png');
+	padding-right: 0.5em;
+	vertical-align: -50%;
+}
+
+.not_computer legend:before {
+	content: url('../images/three_icon.png');
+	padding-right: 0.5em;
+	vertical-align: -50%;
+}
+
+.name, .email, .telephone, .volunteer, .age, .pc_information, .buttons {
+	text-align: center;
+}
+
+.parents label img {
+	padding: 1em;
+}
+
+.parents input[type="text"], input[type="email"], input[type="tel"] {
+	width: 50%;
+	height: 35px;
+	vertical-align: 120%;
+}
+
+.volunteer {
+	font-size: 1.3em;
+	padding: 2em;
+}
+
+.volunteer label {
+	padding-right: 1em;
+}
+
+.volunteer input {
+	width: 20px;
+	height: 18px;
+}
+
+.personal {
+	width: 80%;
+}
+
+.personal label img {
+	padding: 1em;
+}
+
+.personal input[type="text"] {
+	width: 50%;
+	height: 35px;
+	vertical-align: 120%;
+}
+
+.personal input[type="radio"] {
+	width: 4%;
+	height: 18px;
+}
+
+.profile_picture {
+	background-position: center;
+	background-image: url('../images/upload_icon.png');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.profile_picture input {
+	width: 128px;
+	height: 128px;
+	opacity: 0;
+}
+
+.profile_picture label {
+	display: block;
+}
+
+.age {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.pc_information {
+	padding: 1em;
+}
+
+.pc_information label {
+	font-size: 1.3em;
+	padding: 1em;
+}
+
+.pc_information input {
+	width: 20px;
+	height: 18px;
+}
+
+#laptop, #raspberryPI {
+	padding-bottom: 1.5em;
+}
+
+.not_computer label {
+	padding: 1.5em;
+	font-size: 1.3em;
+}
+
+.not_computer input {
+}
+
+#favourite_colour {
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+
+.buttons button:hover {
+	box-shadow: 5px 5px 0px #E0E0E0;
+}
+
+.buttons button[type="submit"] {
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #4CAF50;
+	color: #FFFFFF;
+	border: 1px solid #4CAF50;
+	border-radius: 1em;
+	margin-bottom: 1.5em;
+	margin-right: 1.5em;
+}
+
+.buttons button[type="reset"] {
+	height: 50px;
+	width: 150px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #4CAF50;
+	color: #FFFFFF;
+	border: 1px solid #4CAF50;
+	border-radius: 1em;
+	margin-bottom: 1.5em;
+}

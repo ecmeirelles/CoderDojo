@@ -1,0 +1,145 @@
+.event_title {
+	width: 80%;
+	margin: auto;
+	font-family: 'Coming Soon', sans-serif;
+}
+
+.event_title h1 {
+	padding: 2em 0 1em 0;
+	text-transform: uppercase;
+}
+
+.event_title h1:before {
+	content: url(../images/calendar.png);
+	padding-right: 0.5em;
+	vertical-align: -25%;
+}
+
+.event_description {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+.event_description p {
+	padding-top: 1em;
+	text-align: justify;
+}
+
+.calendar {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+.calendar img {
+	border-radius: 50%;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+caption {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid #367AA6;
+	padding: 1em;
+	background: #367AA6;
+	color: #FFFFFF;
+}
+
+th {
+	padding: 0.8em;
+	border: 1px solid #367AA6;
+	color: #616B76;
+	background: #D0D0D0;
+}
+
+.event_day {
+	background: #D72027;
+}
+
+.event_day a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+td {
+	border: 1px solid #367AA6;
+	padding: 0.5em;
+	text-align: center;
+}
+
+td img {
+	display: block;
+	margin: auto;
+	padding-bottom: 0.5em;
+}
+
+.content {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+	z-index: 1002;
+	overflow: scroll;
+}
+
+.content a {
+	text-decoration: none;
+	font-family: 'Delius Unicase', sans-serif;
+	font-size: 4em;
+	color: #808080;
+	padding-right: 1em;
+	float: right;
+}
+
+.content a:hover {
+	color: #000000;
+}
+
+.content table {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
+
+.content caption {
+	margin-top: 5%;
+}
+
+.content th {
+	text-align: center;
+}
+
+.content td img {
+	max-width: 100%;
+}
+
+.content tr td:first-child {
+	background: #F8F8F8 ;
+}
+
+.superscript {
+	vertical-align: super;
+	text-transform: lowercase;
+}
+
+#day27_content caption {
+	background: #61C93F;
+}
+
+#day28_content caption {
+	background: #FBCC33;
+}
+
+#day29_content caption {
+	background: #E0695C;
+}

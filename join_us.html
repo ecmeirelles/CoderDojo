@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+
+	<head>
+		<title>Coder Dojo | Join Us</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Application form to join CIT CoderDojo. It is needed information from the kids and their parents.">
+		<meta name="keywords" content="CoderDojo, CIT, Cork Institute of Technology, Application form, Join">
+		<meta name="author" content="Elaine C M Peronico">
+		
+		<!-- CoderDojo Shortcut Icon -->
+		<link rel="shortcut icon" href="images/cd_icon.png">
+		
+		<!-- Custom CSS -->
+		<link href="styles/join_us.css" rel="stylesheet" type="text/css">
+		<link href="styles/commom_areas.css" rel="stylesheet" type="text/css">
+		
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Coming%20Soon:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bree%20Serif:400,700' rel='stylesheet' type='text/css'>			
+	</head>
+	
+	<body>
+		<header>
+			<!-- Horizontal navigation -->
+			<div class="main_nav">
+				<nav>
+					<a href="homepage.html">Home</a><a href="upcoming_events.html">Upcoming Events</a>
+					<img src="images/cit_cd_logo.png" alt="CoderDojo Logo" title="CoderDojo Logo">
+					<a class="active" href="join_us.html">Join us</a> 
+					<a href="find_us.html">Find us</a>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<!-- Application form -->
+			<form action="http://atlantis.cit.ie/displayvalues.php">
+			
+				<!-- Parent's information -->
+				<fieldset class="parents">
+					<legend>Parent's Information</legend>
+					<div class="name">
+						<label for="parents_fullname"><img src="images/user_icon.png" alt="Name Icon" title="Type parent's name"></label>
+						<input type="text" id="parents_fullname" name="parents_fullname" required>
+					</div>
+					<div class="email">
+						<label for="parents_email"><img src="images/email_icon.png" alt="Email Icon" title="Type parent's email"></label>
+						<input type="email" id="parents_email" name="parents_email" required>
+					</div>
+					<div class="telephone">
+						<label for="parents_telephone"><img src="images/telephone_icon.png" alt="Telephone Icon" title="Type parent's contact number"></label>
+						<input type="tel" id="parents_telephone" name="parents_telephone" required>
+					</div>
+					<div class="volunteer">
+						<label for="volunteer">Are you willing to volunteer?</label>
+						<input type="checkbox" id="volunteer" name="volunteer" value="yes">
+					</div>
+				</fieldset>
+				
+				<!-- Personal (Kid's) information -->
+				<fieldset class="personal">
+					<legend>Kid's Information</legend>
+					<div class="profile_picture">
+						<input id="profile_picture" type="file" name="profile_picture" required>
+						<img src="#" id="profile_image" alt="Profile Picture">
+						<label for="profile_picture">Upload your profile photography</label>
+					</div>
+					<div class="name">
+						<label for="child_fullname"><img src="images/user_icon.png" alt="Name Icon" title="Type child's name"></label>
+						<input type="text" id="child_fullname" name="child_fullname" required>
+					</div>
+					<div class="age">
+						<label>Age:</label>
+						<label for="age_7"><input type="radio" name="age" id="age_7" value="7" required>7</label>
+						<label for="age_8"><input type="radio" name="age" id="age_8" value="8" required>8</label>
+						<label for="age_9"><input type="radio" name="age" id="age_9" value="9" required>9</label>
+						<label for="age_10"><input type="radio" name="age" id="age_10" value="10" required>10</label>
+						<label for="age_11"><input type="radio" name="age" id="age_11" value="11" required>11</label>
+						<label for="age_12"><input type="radio" name="age" id="age_12" value="12" required>12</label>
+						<label for="age_13"><input type="radio" name="age" id="age_13" value="13" required>13</label>
+						<label for="age_14"><input type="radio" name="age" id="age_14" value="14" required>14</label>
+						<label for="age_15"><input type="radio" name="age" id="age_15" value="15" required>15</label>
+						<label for="age_16"><input type="radio" name="age" id="age_16" value="16" required>16</label>
+					</div>
+					<div class="pc_information">
+						<div id="laptop">
+							<label for="own_laptop">Do you own a laptop computer?</label>
+							<input type="checkbox" id="own_laptop" name="own_laptop" value="yes">
+						</div>
+						<div id="raspberryPI">
+							<label for="own_raspberryPI">Do you own a raspberry PI?</label>
+							<input type="checkbox" id="own_raspberryPI" name="own_raspberryPI" value="yes">
+						</div>
+					</div>
+				</fieldset>
+				
+				<!-- I'm not a computer -->
+				<fieldset class="not_computer">
+					<legend>I'm not a computer</legend>
+					<div id="favourite_colour">
+						<label for="favourite_color">Choose your favourite colour:</label>
+						<input type="color" id="favourite_color" name="favourite_color">
+					</div>
+				</fieldset>
+				
+				<!-- Buttons -->
+				<div class="buttons">
+					<button type="submit">Send</button>
+					<button type="reset">Clean</button>
+				</div>
+			</form> <!-- end application form -->
+		</main>
+		
+		<footer>
+			<!-- Social media networks -->
+			<div class="network">
+				<a href="https://coderdojocit.wordpress.com/" target="_blank"><img src="images/wordpress.png" alt="Wordpress Icon" id="wordpress"></a>
+				<a href="https://twitter.com/coderdojoCIT" target="_blank"><img src="images/twitter.png" alt="Twitter Icon" id="twitter"></a>
+				<a href="https://www.facebook.com/CoderDojo/" target="_blank"><img src="images/facebook.png" alt="Facebook Icon" id="facebook"></a>
+				<a href="https://plus.google.com/+coderdojo/posts" target="_blank"><img src="images/google+.png" alt="Google+ Icon" id="google+"></a>
+			</div>
+			<!-- Copyright -->
+			<div class="copyright">
+				<p>Copyright &copy; CIT Coderdojo 2015</p>
+			</div>
+		</footer>
+		
+		<!-- Custom Javascript -->
+		<script src="javascript/onmouse.js"></script>
+	</body>
+</html>
